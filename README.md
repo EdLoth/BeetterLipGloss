@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# Beetter Lip Gloss – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desenvolvida para **apresentação visual do produto Beetter Lip Gloss**, com foco em design, animações e experiência do usuário.
 
-Currently, two official plugins are available:
+> ⚠️ **Observação:**  
+> Este projeto é **apenas demonstrativo**. A landing page **não possui funcionalidades ativas**, como compra, envio de formulários ou integrações com APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React**
+- **TypeScript**
+- **Vite**
+- **Framer Motion** (animações)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Sobre o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+O objetivo deste projeto é demonstrar:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Organização e estrutura de um projeto front-end moderno
+- Apresentação clara e visualmente atrativa de um produto
+- Uso de animações suaves para melhorar a experiência do usuário
+- Hierarquia de informações e identidade visual
+
+O layout foi pensado para transmitir **sofisticação, leveza e apelo estético**, alinhado à proposta do produto Beetter Lip Gloss.
+
+---
+
+## 🎞️ Animações
+
+As animações foram implementadas utilizando **Framer Motion**, proporcionando:
+
+- Transições suaves entre seções
+- Entrada animada de elementos na tela
+- Maior fluidez e dinamismo na navegação
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta do projeto
+cd seu-repositorio
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
